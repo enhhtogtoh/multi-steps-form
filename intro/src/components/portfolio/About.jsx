@@ -1,21 +1,90 @@
 export const About = () => {
   return (
-    <div className="w-full h-[826] flex bg-gray-50 items-center justify-center">
-      <div className="flex w-full h-[634] px-8 gap-12">
-        <div className="w-full">
-          <div className="w-full flex justify-center">
-            <span className="w-[105] h-7 rounded-xl bg-gray-200 flex justify-center">
-              About me
-            </span>
+    <div
+      id="about"
+      className="w-full h-[826] flex  justify-between
+    py-[96] px-[96] "
+    >
+      <div
+        id="container"
+        className="w-full h-[634] px-[32] flex flex-col gap-[48]"
+      >
+        <div id="title" className="w-full h-[28] flex gap-[16] justify-center">
+          <div
+            id="about-me"
+            className="w-[105] h-[28] rounded-[12] pl-4 bg-gray-200"
+          >
+            About me
           </div>
-          <div className="w-full max-w-[584] h-full min-w-[444] max-h-[584] flex items-center justify-center gap-12 ">
-            photos
-            <div className="w-full max-w-[584] min-w-[444] h-full max-h-[584]">
-              222
+        </div>
+        <div
+          id="subtitle"
+          className="w-full h-[558] flex gap-12 justify-center"
+        >
+          <div
+            id="left-container"
+            className="w-[584] min-w-[444] flex justify-center items-center"
+          >
+            <div id="picture" className="relative w-fit h-fit bottom-10">
+              <div className="w-[400] h-[480] border-8 border-white bg-gray-200 absolute top-10 right-10 -z-10"></div>
+              <img
+                src="/25LP5729.jpg"
+                alt="profile"
+                className="w-[400] h-[480] object-cover border-8 border-white  "
+              />
+            </div>
+          </div>
+          <div
+            id="right-container"
+            className="w-[584] h-[558] min-w-[444] flex flex-col gap-6"
+          >
+            <p className="w-[503] h-9 text-3xl text-gray-900">
+              Curious about me? Here you have it:
+            </p>
+            <div id="content" className="flex flex-col gap-4 text-gray-600">
+              <p className="">
+                I'm a designer turned full stack developer, passionate about
+                React.js and Node.js. I excel in blending technical and visual
+                aspects to craft exceptional digital products, prioritizing user
+                experience, precise design, and optimized code.
+              </p>
+              <p>
+                Since starting my web development journey in 2015, I've embraced
+                challenges and kept up with the latest tech trends. Now in my
+                early thirties, seven years in, I'm building cutting-edge web
+                apps using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase,
+                and more.
+              </p>
+              <p>
+                With a progressive mindset, I enjoy the entire product
+                development process, from ideation to execution. Off duty,
+                you'll find me on Twitter, tracking startup journeys, or
+                unwinding. Follow me for tech insights and public project
+                updates on Twitter or GitHub.
+              </p>
+              <p>Finally, some quick bits about me.</p>
+              <div id="checklist" className="flex">
+                <div id="list-left" className="flex gap-[10] h-[58] pl-[14]">
+                  <ul className="list-disc">
+                    <li className="w-[287] h-6">
+                      B.E. in Computer Engineering
+                    </li>
+                    <li className="w-[287] h-6">Full time freelancer</li>
+                  </ul>
+                </div>
+                <div id="list-right" className="flex gap-[10] h-6">
+                  <ul className="list-disc">
+                    <li className="w-[287] h-6">Avid learner</li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                One last thing, I'm available for freelance work, so feel free
+                to reach out and say hello! I promise I don't bite 😉
+              </p>
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ export const Header = () => {
           <div className="text-gray-100">|</div>
           <div className="flex gap-4">
             <button className="w-9 h-9 cursor-pointer">
-              <img src="./icon.png" alt="icon" />
+              <img src="./gerel.png" alt="gerel" />
             </button>
             <button className="text-base w-34 h-9 rounded-xl bg-black text-white cursor-pointer">
               Download CV
