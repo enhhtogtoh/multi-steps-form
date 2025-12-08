@@ -30,7 +30,7 @@ const Home = () => {
           <button type="submit">add</button>
         </form>
       </div>
-      {/* <div
+      <div
         id="board-container"
         className="w-[377] h-[290] drop-shadow-md bg-white rounded-md   flex flex-col items-center px-4 py-6"
       >
@@ -54,7 +54,7 @@ const Home = () => {
           <p className="text-[#6B7280]">Powered by</p>
           <p className="text-[#3B73ED]">Pinecone Academy</p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
