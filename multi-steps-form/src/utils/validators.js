@@ -66,7 +66,7 @@ export const validateStepThree = (formValues) => {
   } else {
     errors.dateOfBirth = "Төрсөн өдрөө оруулна уу.";
   }
-  if (isEmpty(formValues.profile)) {
+  if (!isEmpty(formValues.profile)) {
     errors.profile = "Профайл зурагаа оруулна уу.";
   }
 
